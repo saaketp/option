@@ -25,3 +25,8 @@ Sphinx = "*"
 pylint = "*"
 pytest-cov = "*"
 bump2version = "^1.0.0"
+
+[tool.mypy]
+strict = true
+show_column_numbers = true
+show_error_codes = true
